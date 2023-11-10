@@ -68,6 +68,8 @@ public class ShoppingCart {
             System.out.println("Items in the cart:");
             cart.forEach(item -> System.out.println(item));
         }
+        if (cart == null);
+        System.out.println("Add items to cart!");
     }
 
     public void searchCart(String keyword) {
